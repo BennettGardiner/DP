@@ -27,6 +27,5 @@ def V(t, s):  # todo add memoization
 
 print('''
 Player A's chances of winning the match are roughly %.2f%% \
-if they use the %s strategy in the first game.
-''' % (100 * V(0, 0)[0], V(0, 0)[1])
+if they use the %s strategy in the first game.''' % (100 * V(0, 0)[0], V(0, 0)[1])
       )
