@@ -9,7 +9,7 @@
 B = 0.45
 bold = [0, B, 1 - B]  # Draw, Win, Loss probabilities
 cons = [0.9, 0, 0.1]
-strategy = ["bold", "conservative"]
+strategy = ["bold", "conservative"] # The two strategies
 
 
 def V(t, s):  # todo add memoization
