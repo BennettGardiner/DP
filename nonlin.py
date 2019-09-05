@@ -1,4 +1,3 @@
-
 # Maximise the function (x0 + 5)(x1 + 1)(x2 + 2)(x3 + 1) subject to
 # 3x0 + 2x1 + x2 + x3 <= 8, where all variables are non-negative integers
 
@@ -21,7 +20,6 @@ def V(t, s):
 
 def find_solutions(t, s):
     max_val = V(t, s)[0]
-
     if t >= len(consts):
         yield []
     else:
