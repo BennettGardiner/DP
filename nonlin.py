@@ -28,5 +28,5 @@ def find_solutions(t, s):
 
 
 print(V(0,0))
-for sol in find_solutions(0,0):
+for sol in find_solutions(0, 0):
     print(sol)
