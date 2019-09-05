@@ -1,3 +1,20 @@
+# A company knows that the demand for its product during each of the next four
+# months will be as follows:
+
+# Months 1 2 3 4
+# Demand 2 3 2 4
+
+# At the beginning of each month, the company must determine how many units
+# should be produced during the current month. During a month in which units are
+# produced, a setup cost of $3 is incurred. In addition, there is a variable cost of $1
+# for every unit produced. At the end of each month, a holding cost of 50 cents per
+# unit on hand is incurred. Capacity limitations allow a maximum of 5 units to be
+# produced during each month. The size of the company’s warehouse restricts the
+# ending inventory of each month to at most 4 units.
+
+# How many units should the company produce each month to satisfy demand and
+# minimise total cost?
+
 D = {1: 2, 2: 3, 3: 2, 4: 4}
 
 def f(x):
