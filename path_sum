@@ -14,8 +14,9 @@ with open('p081_matrix.txt') as f:
 
 num_rows = len(data[0])
 num_cols = len(data)
-
 costs = {}
+
+
 def cost(row, col):
     key = str(row) + ':' + str(col)
     if key in costs.keys():
@@ -30,5 +31,6 @@ def cost(row, col):
         else:
             costs[key] = data[row][col] + min(cost(row, col + 1), cost(row + 1, col))
         return costs[key]
+
 
 print(cost(0, 0))
